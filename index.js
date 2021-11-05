@@ -3,7 +3,7 @@ const ytdl = require('ytdl-core.js');
 const Youtube = require(`simple-youtube-api`);
 const PREFIX = "!";
 
-const client = new Client({ disableEveryone: true });
+const client = new Discord.Client({ disableEveryone: true });
 
 const youtube = new Youtube("AIzaSyAGmpS9qDMwLgOU1qhSlfwTaJUPFP0NBfY")
 
